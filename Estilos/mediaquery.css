@@ -7,6 +7,8 @@
     }
     section#login{
         width: 80vw;
+        height: 350px;
+        
     }
     section#login > div#imagen{
         float: left;
@@ -19,6 +21,30 @@
         width: 70%;
 
     }
+
+    div.campo > input {
+        background-color: #49a09d;
+        font-size: 1em;
+        width: calc(70% - 50px);
+        height: 100%;
+        border: 0px;
+        border-radius: 5px;
+        padding: 4px;
+        transform: translateY(-11px);
+    }
+
+    form > input[type=submit]{
+        display: block;
+        font-size: 1em;
+        width: 70%;
+        height: 40px;
+        background-color: #49a09d;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+    
+    }
+    
 }
 
 @media screen and (min-width: 992px){
@@ -48,5 +74,29 @@
     
     div#formularios > p{
         font-size: 1.2em;
+    }
+
+    div.campo > input {
+        background-color: #49a09d;
+        font-size: 1em;
+        width: calc(50% - 50px);
+        height: 100%;
+        border: 0px;
+        border-radius: 5px;
+        padding: 4px;
+        transform: translateY(-11px);
+    }
+
+    form > input[type=submit]{
+        display: block;
+        font-size: 1em;
+        width: 50%;
+        height: 40px;
+        background-color: #49a09d;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+    
+    }
 
 }
